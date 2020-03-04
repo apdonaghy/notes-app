@@ -27,7 +27,7 @@ h1 {
     border: 1px solid #FFCC00; 
     border-radius: 7px;
     width:31.25%;
-    height:6em;
+    /* height:10em; */
     background-color: #2A2A2A;
     margin:10px;
 }
@@ -50,7 +50,7 @@ h2{
     color:#FFCC00;
     font-weight: 400;
     font-size: 1.25em;
-    padding: 10px;
+    padding: 20px;
     border-bottom: 1px solid #FFCC00;
 }
 
@@ -67,5 +67,5 @@ p{
     font-size:1em;
     color:#FFCC00;
     font-weight: 200;
-    padding:10px;
+    padding:20px;
 }
