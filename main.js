@@ -24,8 +24,10 @@ const addNote = (event) => {
     let container = document.querySelector('.wrapper');
 
     container.appendChild(newNotePad);
+    document.getElementById('title').focus();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn').addEventListener('click', addNote);
+    document.getElementById('title').focus();
 });
